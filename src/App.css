@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.sidebar {
+  border: 1px solid black;
+  margin-left: 0;
+  height: 100%;
+  width: 20%;
+}
