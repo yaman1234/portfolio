@@ -8,3 +8,74 @@
   height: 100%;
   width: 20%;
 }
+
+/* Header */
+.header {
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+.header ul li {
+  margin-left: 50px;
+}
+
+.header .right {
+  margin-right: 0px;
+}
+
+/* Introduction */
+.intro-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.intro-image {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+/* About me */
+
+.section-title {
+  background-color: #b7c0b7;
+  text-align: center;
+}
+.about-me {
+  background-color: #d8dbd8;
+  padding: 20px 100px;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill-card {
+  border: 1px solid black;
+  text-align: center;
+}
+.skill-card span {
+  font-size: 100px;
+}
+
+/* Experience section */
+.experience-section {
+  background-color: #d8dbd8;
+  padding: 20px 100px;
+}
+
+.experience-card {
+  border: 1px solid black;
+}
+
+.company-logo img {
+  width: 100px;
+  height: 100px;
+}
