@@ -2,7 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 
 const AboutMe = () => {
-    return <div><div className="about-me">
+    return <div className="container"><div className="about-me section center">
         <div className="section-title">About Me</div>
         <Row>
             <Col span={6}>

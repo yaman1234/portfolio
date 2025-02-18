@@ -3,7 +3,7 @@ import { Col, Row } from "antd";
 import React from "react";
 
 const Skills = () => {
-    return <div><div className="skills-section">
+    return <div className="container"><div className="skills-section">
         <div className="section-title">Skills</div>
         <Row>
             <Col span={24}>

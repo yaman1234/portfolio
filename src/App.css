@@ -1,22 +1,28 @@
-.App {
-  text-align: center;
+.container {
+  margin: 0px 50px;
+  padding: 0px 30px;
+  border: 1px solid black;
 }
 
-.sidebar {
-  border: 1px solid black;
-  margin-left: 0;
-  height: 100%;
-  width: 20%;
+.center {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
 }
 
 /* Header */
 .header {
-  padding: 20px;
-  border: 1px solid black;
+  padding: 0px;
   display: flex;
   justify-content: space-between;
+  height: 50px;
+  border: 1px solid black;
 }
 
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
 .header ul {
   list-style: none;
   display: flex;
@@ -29,9 +35,24 @@
   margin-right: 0px;
 }
 
+.header .right button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
 /* Introduction */
+.section {
+  height: 80vh;
+}
+
 .intro-text {
   padding: 20px;
+  text-align: justify;
+}
+
+.intro-text .name {
+  font-size: 50px;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -39,6 +60,20 @@
   border: 1px solid black;
   width: 100%;
   height: 100%;
+}
+.available {
+  color: green;
+  font-size: 16px;
+}
+
+.media-link {
+  margin: 0px 10px;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.media-link a {
+  color: black;
 }
 
 /* About me */
@@ -78,4 +113,13 @@
 .company-logo img {
   width: 100px;
   height: 100px;
+}
+
+.job-position {
+  font-size: larger;
+  font-weight: 500;
+}
+.experience-details {
+  text-align: left;
+  border: 1px solid black;
 }
